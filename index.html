@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,40 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <script src="bootstrap.bundle.min.js"></script>
     <script src="bootstrap.min.js"></script>
+    <style>
+        .org-box {
+            filter: blur(2px);
+            z-index: 0;
+        }
+
+        div.odd {
+            background-color: #979797;
+            opacity: 0.8;
+        }
+    </style>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <img src="153563.jpg" alt="" class="org-box w-100 position-absolute h-100">
+
+    <div class="container-fluid odd w-100">
+        <div class="odd col-12 text-white no-gutters justify-content-center mb-2">
+            <div class="container justify-content-center">
+                <div class="row">
+                    <div class="col-4 text-center">
+                        team 1
+                    </div>
+                    <div class="col-4 text-center">
+                        check boxes
+                    </div>
+                    <div class="col-4 text-center">
+                        team 2
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
